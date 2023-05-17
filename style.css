@@ -1,7 +1,8 @@
-html {
+body {
   height: 100%;
   width: 100%;
-  background-color: #6d9eebff;
+  background-color: #b3d4e6;
+}
 
 .topnav {
   overflow: hidden;
@@ -28,12 +29,16 @@ html {
   text-decoration: none;
   font-size: 17px;
 }
+
 .topnav .icon {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -41,11 +46,32 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+}
 
-  .Header
+h1 {
+  text-align: center;
+  color: #09233e;
+
+}
+
+p {
+  text-align: center;
+  color: #09233e;
+
+}
+
+playButton {
+  text-align: center;
+  width: 192px;
+  height: 144px;
+  
+}
