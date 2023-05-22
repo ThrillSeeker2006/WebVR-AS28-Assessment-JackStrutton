@@ -1,6 +1,4 @@
 body {
-  height: 100%;
-  width: 100%;
   background-color: #b3d4e6;
 }
 
@@ -63,15 +61,28 @@ h1 {
 
 }
 
+img {
+  height: 144px;
+  width: 192px;
+}
+
+.playButton {
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #09233e;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Helvetica;
+}
+
 p {
   text-align: center;
   color: #09233e;
-
-}
-
-playButton {
-  text-align: center;
-  width: 192px;
-  height: 144px;
-  
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Helvetica;
 }
