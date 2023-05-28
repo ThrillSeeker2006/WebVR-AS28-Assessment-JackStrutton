@@ -6,16 +6,55 @@
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </head>
 
-<body <div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="informationHelp.html">Information & Help</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="informationHelp.html">Information & Help</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
+
+    <h1>Information & Help</h1>
+  
+  <div class="helpTitle">
+    <h3>Controls</h3>
+  </div>
+
+  <div class="controls">
+    <p>
+      To move around my project, use the "W" "A" "S" "D" keys to move forwards, backwards, to the left, and to
+      the right. And to look around, move your mouse forwards, backwards, to the left, and to
+      the right.
+    </p>
+
+    <p>
+      Below is one of the best "IRL" parkour videos ever made, amassing an unfathomable 100 million views on youtube.
+    </p>
+  </div>
+
+  <div class="video">
+    <iframe width="545" height="300" src="https://www.youtube.com/embed/NX7QNWEGcNI" style="border:5px solid #09233e;"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+
+
+
+
 </body>
 
 </html>

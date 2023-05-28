@@ -55,20 +55,19 @@ body {
   }
 }
 
-h1 {
-  text-align: center;
-  color: #09233e;
-
-}
-
-img {
-  height: 144px;
-  width: 192px;
+.title {
+  display: block;
+  margin: auto;
+  height: 576px;
+  width: 768px;
 }
 
 .playButton {
   display: block;
   margin: auto;
+  height: 288px;
+  width: 384px;
+  ;
 }
 
 h2 {
@@ -76,13 +75,42 @@ h2 {
   color: #09233e;
   margin-left: 50px;
   margin-right: 50px;
-  font-family: Helvetica;
+  font-size: 50px;
+}
+
+h5 {
+  text-align: center;
+  color: #09233e;
+  margin-left: 400px;
+  margin-right: 400px;
+  font-size: 20px;
+}
+
+.video {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #09233e;
+}
+
+.prompt {
+  text-align: center;
+  color: #09233e;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 p {
   text-align: center;
   color: #09233e;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-family: Helvetica;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h4 {
+  text-align: center;
+  color: #09233e;
+  font-size: 50px;
 }
