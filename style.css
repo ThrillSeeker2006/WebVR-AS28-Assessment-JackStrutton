@@ -67,7 +67,6 @@ body {
   margin: auto;
   height: 288px;
   width: 384px;
-  ;
 }
 
 h2 {
@@ -75,7 +74,6 @@ h2 {
   color: #09233e;
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 50px;
 }
 
 h5 {
@@ -83,11 +81,20 @@ h5 {
   color: #09233e;
   margin-left: 400px;
   margin-right: 400px;
-  font-size: 20px;
 }
+
 
 .video {
   text-align: center;
+}
+
+.video2 {
+  text-align: center;
+}
+
+.video3 {
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -95,22 +102,35 @@ h1 {
   color: #09233e;
 }
 
-.prompt {
+.helpTitle {
   text-align: center;
   color: #09233e;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 p {
   text-align: center;
   color: #09233e;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
-h4 {
+
+h3 {
   text-align: center;
   color: #09233e;
-  font-size: 50px;
+}
+
+.jumpSunset{
+text-align: center;
+padding-bottom: 50px;
+}
+
+.w3-container {
+  background-color: #09233e;
+}
+
+.credits{
+  text-align: center;
+  color: #96a0a0;
+  
 }
