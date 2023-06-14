@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>WebVR AS2.8 Assessment - Jack Strutton</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-----NavBar Script----->
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
@@ -17,13 +17,34 @@
       }
     }
   </script>
-    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
-
+  <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
 </head>
 
 <body>
   <a-scene>
+    <!-----Sky and Camera----->
+    <a-entity camera look-controls wasd-controls movment-controls position="0 1 10"></a-entity>
+    <a-sky id="sky" color="#74bbe2"></a-sky>
 
+    <!-----Boxes/Obstacles----->
+    <a-box id="box1" position="0 1 -5" rotation="0 0 0" color="#50280a" scale="2 2 2"></a-box>
+    <a-box id="longBox" position="-10 1 5" rotation="0 45 0" color="#50280a" scale="5 2 2"></a-box>
+    <a-box id="tallBox" position="10 2.5 10" rotation="0 5 0" color="#50280a" scale="2 5 2"></a-box>
+    <!-----Strides----->
+    
+    <a-cylinder id="stride1" position="3 0.25 -1" rotation="0 0 0" color="#50280a" scale="0.5 0.5 0.25"></a-cylinder>
+    <a-cylinder id="stride1" position="1 0.25 0" rotation="0 0 0" color="#50280a" scale="0.5 0.5 0.25"></a-cylinder>
+    <a-cylinder id="stride2" position="-1 0.25 5" rotation="0 0 0" color="#50280a" scale="0.5 0.5 0.25"></a-cylinder>
+    <a-cylinder id="stride3" position="1 0.25 4" rotation="0 0 0" color="#50280a" scale="0.5 0.5 0.25"></a-cylinder>
+    <a-cylinder id="stride4" position="-1 0.25 3" rotation="0 0 0" color="#50280a" scale="0.5 0.5 0.25"></a-cylinder>
+    <a-cylinder id="stride5" position="1 0.25 2" rotation="0 0 0" color="#50280a" scale="0.5 0.5 0.25"></a-cylinder>
+    <a-cylinder id="stride6" position="-1 0.25 1" rotation="0 0 0" color="#50280a" scale="0.5 0.5 0.25"></a-cylinder>
+    <!-----Floor and Walls----->
+    <a-plane id="floor" position="0 0 0" rotation="-90 0 0" color="#1e0a1e" scale="50 50 50"></a-plane>
+    <a-plane id="backWall" color="#999c9a" position="0 5 25" scale="50 10 50" rotation="0 180 0"></a-plane>
+    <a-plane id="frontWall" color="#999c9a" position="0 5 -25" scale="50 10 50" rotation="0 0 0"></a-plane>
+    <a-plane id="rightWall" color="#999c9a" position="25 5 0" scale="50 10 50" rotation="0 -90 0"></a-plane>
+    <a-plane id="leftWall" color="#999c9a" position="-25 5 0" scale="50 10 50" rotation="0 90 0"></a-plane>
     
   </a-scene>
 </body>

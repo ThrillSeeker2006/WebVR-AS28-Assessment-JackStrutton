@@ -74,6 +74,7 @@ h2 {
   color: #09233e;
   margin-left: 50px;
   margin-right: 50px;
+  padding-top: 50px;
 }
 
 h5 {
@@ -123,6 +124,8 @@ h3 {
 .jumpSunset{
 text-align: center;
 padding-bottom: 50px;
+padding-top: 50px;
+
 }
 
 .w3-container {
